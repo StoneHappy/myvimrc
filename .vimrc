@@ -27,6 +27,12 @@ Plug 'scrooloose/nerdcommenter'
 
 " debug
 Plug 'puremourning/vimspector'
+
+" cmake
+Plug 'ilyachur/cmake4vim'
+
+Plug 'skywind3000/asyncrun.vim'
+
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 

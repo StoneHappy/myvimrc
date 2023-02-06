@@ -49,3 +49,7 @@ python3 install.py --all
 ## vimspector
 ``F9`` add breakpoint
 ``F5`` start debug
+
+## cmake
+``:CMake`` configure cmake
+``:CMakeBuild`` build cmake
