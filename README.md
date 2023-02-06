@@ -8,4 +8,14 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## YcmComplete
 
+```bash
+cd ~/.vim/plugged/youcompleteme/
 
+sudo apt install build-essential cmake vim python3-dev -y
+
+sudo apt install mono-complete golang nodejs npm -y
+
+git submodule update --init --recursive
+
+python3 install.py --all
+```
