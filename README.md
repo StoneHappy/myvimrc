@@ -35,3 +35,13 @@ python3 install.py --all
 ## vim-fugitive
 
 ``:Git status`` and so on
+
+## nerdcommenter
+
+``space + cc`` comment current line or select line.
+
+``v`` char visual
+
+``V`` line visual
+
+``ctrl + v`` block visual

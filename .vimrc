@@ -21,6 +21,9 @@ Plug 'kien/ctrlp.vim'
 
 " git
 Plug 'tpope/vim-fugitive'
+
+" commenter
+Plug 'scrooloose/nerdcommenter'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 " You can revert the settings after the call like so:
@@ -30,8 +33,9 @@ set bg=dark
 let mapleader=" "
 let g:ycm_key_invoke_completion = '<C-j>'
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <leader>nn :NERDTreeFocus<CR>
+nnoremap <leader>n :NERDTree<CR>
+nnoremap <leader>nc :NERDTreeClose<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
