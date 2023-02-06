@@ -18,6 +18,9 @@ Plug 'valloric/youcompleteme'
 
 " fuzzy find
 Plug 'kien/ctrlp.vim'
+
+" git
+Plug 'tpope/vim-fugitive'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 " You can revert the settings after the call like so:
