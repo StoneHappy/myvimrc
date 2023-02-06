@@ -31,3 +31,7 @@ python3 install.py --all
 ## CtrlP
 
 ``Ctrl+p`` open fuzzy find
+
+## vim-fugitive
+
+``:Git status`` and so on
