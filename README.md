@@ -20,6 +20,10 @@ git submodule update --init --recursive
 python3 install.py --all
 ```
 
+``space + jd`` YcmComplete GoTo
+
+``Ctrl + j`` force Ycm to complete code 
+
 ## NERDTree
 
 ``Ctrl+n`` open NERDTree
