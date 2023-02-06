@@ -24,8 +24,14 @@ Plug 'tpope/vim-fugitive'
 
 " commenter
 Plug 'scrooloose/nerdcommenter'
+
+" debug
+Plug 'puremourning/vimspector'
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
+
+let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
+
 " You can revert the settings after the call like so:
 autocmd vimenter * nested colorscheme gruvbox
 set bg=dark
@@ -38,4 +44,5 @@ nnoremap <leader>n :NERDTree<CR>
 nnoremap <leader>nc :NERDTreeClose<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
 

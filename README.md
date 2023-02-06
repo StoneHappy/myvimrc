@@ -45,3 +45,7 @@ python3 install.py --all
 ``V`` line visual
 
 ``ctrl + v`` block visual
+
+## vimspector
+``F9`` add breakpoint
+``F5`` start debug
