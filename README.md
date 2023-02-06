@@ -19,3 +19,11 @@ git submodule update --init --recursive
 
 python3 install.py --all
 ```
+
+## NERDTree
+
+``Ctrl+n`` open NERDTree
+
+## CtrlP
+
+``Ctrl+p`` open fuzzy find
