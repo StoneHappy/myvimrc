@@ -33,6 +33,12 @@ Plug 'ilyachur/cmake4vim'
 
 Plug 'skywind3000/asyncrun.vim'
 
+" status bar
+Plug 'vim-airline/vim-airline'
+
+" start screen for Vim
+Plug 'mhinz/vim-startify'
+
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
 
@@ -50,5 +56,4 @@ nnoremap <leader>n :NERDTree<CR>
 nnoremap <leader>nc :NERDTreeClose<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
 
