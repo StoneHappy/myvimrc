@@ -16,4 +16,7 @@ call plug#end()
 " You can revert the settings after the call like so:
 autocmd vimenter * nested colorscheme gruvbox
 set bg=dark
+
+let mapleader=" "
 let g:ycm_key_invoke_completion = '<C-j>'
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
